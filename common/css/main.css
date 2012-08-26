@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+a {text-decoration:none}
+
+#page-border-menu {  
+	position:relative; 
+	border: 0px solid green ;
+	background-color:#000000;
+	color: white;
+	width: 98.5%;
+	text-align:left;
+	word-spacing:30px;
+	padding-left:20px;
+}
+#page-border-menu a{color: #FFFFFF; font-weight:bold; font-family: helvetica, tahoma, sans-serif; }
+
+#slider a{
+    display:block;
+}
+/*
+a:active {color: #FFFFFF; }
+a:visited {color: #FFFFFF; }
+a:hover {color: #FFFFFF; }
+*/
+#top-menu { 
+/*	padding: 1px 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	font-size:16px;
+	position: relative;
+	top: 15px;
+} 
+
+#top-menu-navigation {
+	position: relative;
+	top: -45px;
+}
+
+.top-menu-item {
+	position:relative;
+}
+
+.slider-wrapper {
+	position: relative;
+	top: -100px;
+	left: 4em;
+}
+
+.nivo-controlNav {
+	top: -100px;
+}
+
+#top-menu-navigation how-to {
+	position: relative;
+	top: -45px;
+}
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+/*	background: url('/cc2/imgs/bg_index.png') no-repeat;*/
+	background-repeat:repeat-y;
+	background-color: #FBFBFB;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+
+}
+
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 65em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+/*	border: 1px solid #000000; */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	background-color: #FBFBFB;
+	position: relative;
+	top: 15px;
+}
+
+.oneColElsCtrHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	/*padding: 0 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	width: 840px;
+	padding-left: 25px;
+	position:relative;
+	top:15px;
+
+}
+.oneColElsCtrHdr #news-feed {
+	position:relative;
+	padding: 0 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+} 
+.oneColElsCtrHdr #footer p {
+	width: 65em;  
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+a img {
+	border: 0;
+	text-decoration: none;
+}
+
+.news {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.mnuBBHeader {
+	font-weight:bold;
+	font-size:14pt;
+	line-height:115%;
+	font-family:Helvetica,sans-serif;
+}
+
+.mnuBBHeader2 {
+	font-weight:bold;
+	font-size:14pt;
+	line-height:115%;
+	font-family:Helvetica,sans-serif;
+}
+
+mnuBBText {font-family:Helvetica,sans-serif;}
+p.mnuBBText {font-family:Helvetica,sans-serif;}
+.mnuSectionHeader {font-weight:bold;font-size:12pt;line-height:115%;font-family:Helvetica,sans-serif;}
+.mnuBBTextA {font-weight:bold;}
+
+.pressImage { vertical-align:middle; }
+.pressText { vertical-align:middle; font-weight:bold; font-style:italic; }
