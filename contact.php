@@ -18,8 +18,11 @@ function clean_string($string) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Contact</title>
 
-    <LINK rel="stylesheet" type="text/css" media="screen" href="common/css/main.css">
+<LINK rel="stylesheet" type="text/css" media="screen" href="common/css/main.css">
 <LINK href="common/css/contact.css" rel="stylesheet" type="text/css">
+=======
+<LINK href="css/main.css" rel="stylesheet" type="text/css">
+<LINK href="css/contact.css" rel="stylesheet" type="text/css">
 <!--[if IE]>
 <style type="text/css"> 
 /* place css fixes for all versions of IE in this conditional comment */
@@ -31,6 +34,8 @@ function clean_string($string) {
 
 <body class="twoColElsLt">
 	<?php include "inc.new_header.php" ?>
+=======
+
 <div id="container">
     <?php include "top-menu.php" ?>
   <div id="sidebar1">
