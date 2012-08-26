@@ -21,7 +21,7 @@ addDOMLoadEvent = (function(){
         old_onload,
         init = function () {
             done = true;
- 
+
             // kill the timer
             clearInterval(load_timer);
  
@@ -120,6 +120,9 @@ function preventPageShift() {
   if (isVerticalScrollbar){
     var scrollWidth = getScrollerWidth(); //Returns '0' in IE7, which we want
     document.body.style.marginLeft = scrollWidth+"px"; //Have to use margin for webkit browsers
+
+	document.getElementById( "page-border-menu" ).style.marginLeft = "-" + scrollWidth + "px";
+	document.getElementById( "page-border-menu" ).style.width = "99.7%";
   }
   else document.body.style.marginLeft = 0; //In case window is resized
 }

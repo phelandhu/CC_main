@@ -7,13 +7,13 @@
 </head>
 
 <body class="oneColElsCtrHdr">
-	<?php include "inc.new_header.php" ?>
+	<?php include "jcheader.php" ?>
 <div id="container">
    <?php include "jcmainmenu.php" ?>
   <div id="header">
   <!-- end #header --></div>
   <div id="mainContent">
-  <IFRAME name="iframe" src="http://cordcruncher.myshopify.com/collections/all" width="1000px" height="735px" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></IFRAME>
+  <IFRAME name="iframe" src="http://cordcruncher.myshopify.com/collections/all" width="1000px" height="750px" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></IFRAME>
 	<!-- end #mainContent --></div>
   <div id="footer">
   <?php include "footer-menu.php" ?>

@@ -1,5 +1,4 @@
-=======
 CC_main
 =======
 
-Cord Cruncher
+Cord

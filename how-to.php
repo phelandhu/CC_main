@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>How to use your CordCruncher</title>
-
-    <LINK rel="stylesheet" type="text/css" media="screen" href="common/css/main.css">
-
+    <link rel="stylesheet" type="text/css" media="screen" href="common/css/main.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="common/js/pageCenter.js"></script>
 </head>
 
 <body class="oneColElsCtrHdr">
@@ -28,6 +28,7 @@
     <?php
 		endif;
   	?>
+
 </span>
 <?php
 // http://av.vimeo.com/01387/669/103527407.mp4?aksessionid=48d2e3ac9eb38f8b761f9d5643d3fd32&token=1339986357_a3baf0fee6e6ff3dd58e52e8ea95af8c

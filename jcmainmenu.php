@@ -44,19 +44,21 @@ $cart = "cart.php";
 */
 echo " <a href=\"" . $siteBase . "\"><img src=\"imgs/cordcruncher-zipper-logo-01.png\" height=\"118\" width=\"226\" alt=\"\" /></a>";
 ?>
-<span id="top-menu-navigation" >
+
 <!--
  <a href="how-to.php">How to Crunch</a>
  <a href="shop.php">Shop</a>
  <a href="interact.php">Interact</a>
  <a href="contact.php">Contact</a>
  -->
-
-     <span id="how-to" class="top-menu-item" style="left: 100px;"><a href="<?php echo $howTo; ?>"><img src="imgs/howToCrunch.png" alt="" /></a></span>
-     <span id="shop" class="top-menu-item" style="left: 50px;"><a href="<?php echo $shop; ?>"><img src="imgs/shop.png"  alt="" /></a></span>
-     <span id="interact" class="top-menu-item" style="left: 15px;"><a href="<?php echo $interact; ?>"><img src="imgs/interact.png" alt="" /></a></span>
-  <span id="contact" class="top-menu-item" style="left: 0px;"><a href="<?php echo $contact; ?>"><img src="imgs/contact.png" alt="" /></a></span></span>
-</div>
+      
+<a href="<?php echo $howTo; ?>"><img src="imgs/howto.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;"/></a><a href="<?php echo $shop; ?>"><img src="imgs/shop.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;" /></a><a href="<?php echo $interact; ?>"><img src="imgs/blog.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;" /></a><a href="<?php echo $contact; ?>"><img src="imgs/contact.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;" /></a><a href="http://www.facebook.com/CordCruncherHeadphones" target="_blank"><img src="imgs/fb.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;" /></a><a href="https://twitter.com/#!/CordCruncher" target="_blank"><img src="imgs/twit.jpg" alt="" style="position: relative;
+left: 220px; bottom: 15px;"  /></a>
 <?php
 
 ?>
